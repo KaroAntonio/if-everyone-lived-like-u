@@ -1,0 +1,44 @@
+body,html { margin: 0px; border: 0px; }
+
+#container {
+	margin: 5%;
+	font-size: 30px;	
+}
+
+#loading {
+	position: absolute;
+	right: 50vw;
+	top: 20vh;
+	width: 40px;
+	height: 40px;
+	z-index: 1000000; /* the highest */
+}
+
+.section {
+	border: 20px solid black;
+	padding: 15px;
+	
+}
+
+.input-group {
+	overflow: hidden;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.input-component {
+	float: left;
+}
+
+.input-field {
+	height: 27px;
+	margin-top: 2px;
+	margin-right: 10px;
+	font-size: 26px;
+	font-family: serif;
+	width: 100px;
+}
+
+.co2-output {
+	float: right;
+}
